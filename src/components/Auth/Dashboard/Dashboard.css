@@ -269,3 +269,13 @@ button.danger:hover {
   border: 1px solid #ddd;
 }
 
+
+.modal {
+  overflow-y: auto;
+  scrollbar-width: none;      
+  -ms-overflow-style: none;     
+}
+
+.modal::-webkit-scrollbar {
+  display: none;              
+}

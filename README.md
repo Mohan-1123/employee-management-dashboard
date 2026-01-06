@@ -92,3 +92,60 @@ Each employee record displays:
 - All CRUD operations sync with Local Storage
 
 
+##  How to Run the Project Locally
+
+###  Prerequisites
+- Node.js (v16 or above)
+- npm
+
+---
+
+###  Install Dependencies
+Open the project folder in terminal and run:
+
+npm install
+
+---
+
+###  Run the Project
+Start the development server:
+
+npm run dev
+
+Open your browser and visit:
+
+http://localhost:5173
+
+---
+
+##  Login Instructions
+
+This project uses mock authentication.
+
+### Login Rules
+- Email: Enter any random Gmail address  
+  Example: test@gmail.com
+
+- Password: Must be at least 6 characters  
+  Example: 123456
+
+---
+
+###  Login Steps
+1. Enter a Gmail address
+2. Enter a password with minimum 6 characters
+3. Click the **Login** button
+4. You will be redirected to the Dashboard
+
+---
+
+###  Example Credentials
+Email: demo@gmail.com  
+Password: 123456
+
+---
+
+##  Notes
+- Authentication is handled using localStorage
+- No backend API is used
+- Employee data is stored locally
